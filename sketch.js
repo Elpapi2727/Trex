@@ -32,7 +32,7 @@ var botton2Group
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
   groundImage = loadImage("ground2.png");
-  cloudImage = loadImage("nube.png");
+  cloudImage = loadImage("nube2.png");
   cactus1 = loadImage("cactus1.png");
   cactus2 = loadImage("cactus2.png");
   cactus3 = loadImage("cactus3.png");
@@ -140,7 +140,7 @@ function nubes(){
   if(frameCount % 60 === 0){
 cloud = createSprite(600,50,20,20);
 cloud.addImage(cloudImage)
-cloud.scale = 0.3;
+cloud.scale = 0.1;
 cloud.y = Math.round(random(10,50));
 cloud.velocityX = -5 ;
 cloud.depth = trex.depth - 1;
