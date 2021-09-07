@@ -78,7 +78,7 @@ function setup(){
 
 function draw(){
   //establece un color de fondo 
-  background(1000);
+  background("skyblue");
   text("score:" + score,500,50)
   
 if(gameState === PLAY){
