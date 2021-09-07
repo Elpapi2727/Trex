@@ -210,3 +210,5 @@ botton2Group.destroyEach();
 trex.changeAnimation("running");
 score = 0;
 }
+
+//hola es solo para el gd
